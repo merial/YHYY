@@ -28,6 +28,14 @@ public class Keittiö {
     public String enterKeittiö(){
         return "Olet nyt keittiössä. Voit käydä jääkaapilla katsomassa "
                 + "ruokatilanteen ja syömässä tai poistua takaisin käytävään.";
+        //+switch syönti/paluu käytävään
+    }
+    
+    public String gotoJääkaappi(){
+        return "Jääkaapissa on jäljellä "+ruoka.getRuoka()+" annosta. "
+                + "Jos haluat syödä, valitse k ja jos et, valitse e. ";
+        //switch tän homman jälkeen si. Jos ei syö niin poistuu
+        //keittiöstä kokonaan takasin käytävään
     }
       
     public String exitKeittiö(){
@@ -35,8 +43,8 @@ public class Keittiö {
         return "Päätit sitten lähteä takaisin käytävään. Ok...";
     }
     
-    public void getTulipalo(){
-        palo.kuoletko();
+    public void getTulipalo(){ //tää sitte jonku soutin sisään 
+        palo.kuoletko(); 
     }
        
     
