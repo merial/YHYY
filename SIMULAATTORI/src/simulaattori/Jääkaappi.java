@@ -32,10 +32,10 @@ public class Jääkaappi {
     }
     
     public String miinusRuoka(int ruoka){
-        if (ruoka<1){
+        if (ruoka>=1){
             ruoka -= 1;
             hp.lisää(20);
-            return "OM NOM NOM! Sait +20hp, nyt sinulla on " +hp.getHp();
+            return "OM NOM NOM! Sait +20hp, nyt sinulla on " +hp.getHp()+" hp.";
         }
         else {
             return "Jääkaapissa ei ole enää ruokaa!!!!!!!!! Maybe die.......";
