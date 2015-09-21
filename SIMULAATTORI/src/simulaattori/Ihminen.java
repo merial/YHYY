@@ -1,14 +1,24 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/*YHYYYYYYYYYYYYYYY
  */
 package simulaattori;
 
-/**
- *
- * @author Omistaja
- */
 public class Ihminen {
+
+    private int hp = 100;
+
+    public Ihminen() {
+    }
     
+    public Ihminen(int uusiHp){
+        this.hp = hp;
+    }
+    public void setHp (int uusiHp) {
+        hp = uusiHp;
+    }
+    public int getHp() {
+        return hp;
+    }
+    public void vähennä (int hela){
+        hp-=hela;
+    }
 }
