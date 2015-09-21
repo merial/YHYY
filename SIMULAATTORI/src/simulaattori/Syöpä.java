@@ -1,14 +1,26 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package simulaattori;
 
-/**
- *
- * @author Omistaja
- */
 public class Syöpä {
+    private String pöpö;
+    double rng = Math.floor(Math.random()*(20-1+1))+1;
+    
+    public Syöpä () {
+    }
+    
+    public Syöpä (String pöpö){
+        this.pöpö = pöpö;
+    }
+    public void setSyöpä (String uusiSyöpä) {
+        pöpö = uusiSyöpä;
+    }
+    public boolean syöpäännytkö() {
+    if (rng==1){
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+    
     
 }
