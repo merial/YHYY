@@ -24,17 +24,17 @@ public class Tulipalo {
         this.palo = palo;
     }
         
-    public double kuoletko() {
-        return numero.getRng();
-        if (numero== 1) {
+    public void kuoletko() {
+        double rng= (int) numero.getRng();
+        if (rng == 1) {
             hp.vähennä(hp.getHp());
-            System.out.println("Oho kuolit.");
+            System.out.println("YHYY kuolit.");
             
         } 
         else {
-            System.out.println("Huh pelastuis!");
+            System.out.println("Huh pelastuit!");
         }
-        return 0;
+        
 }
 }    
     

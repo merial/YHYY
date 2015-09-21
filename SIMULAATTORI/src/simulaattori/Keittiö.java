@@ -32,10 +32,12 @@ public class Keittiö {
       
     public String exitKeittiö(){
         hp.vähennä(10);
-        return "Päätit sitten lähteä takaisin käytävään. Ok.";
+        return "Päätit sitten lähteä takaisin käytävään. Ok...";
     }
     
-    
+    public void getTulipalo(){
+        palo.kuoletko();
+    }
        
     
     
