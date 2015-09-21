@@ -7,28 +7,34 @@ package simulaattori;
 public class Tulipalo {
     int palo;
     private Ihminen hp;  //Ihminen-olio
-    double rng=(Math.floor(Math.random()*(20 -1+1))+1); //1/20 tsäänssi palaa kuoliaaxi
+    private rng numero;
 
     public Tulipalo(Ihminen hela){
        hp=hela;
     } 
     
+    public Tulipalo(rng numero){
+        this.numero = numero;
+    }
+    
     public Tulipalo(){
     }
    
     public Tulipalo(int palo) {
-        this.rng = palo;
+        this.palo = palo;
     }
         
-    public String kuoletko() {
-        if (rng == 1) {
+    public double kuoletko() {
+        return numero.getRng();
+        if (numero== 1) {
             hp.vähennä(hp.getHp());
-            return "Oho kuolit.";
+            System.out.println("Oho kuolit.");
             
         } 
         else {
-            return "Huh säästyit!";
+            System.out.println("Huh pelastuis!");
         }
+        return 0;
 }
 }    
     
