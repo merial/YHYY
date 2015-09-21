@@ -38,7 +38,7 @@ public class Jääkaappi {
             return "OM NOM NOM! Sait +20hp, nyt sinulla on " +hp.getHp()+" hp.";
         }
         else {
-            return "Jääkaapissa ei ole enää ruokaa!!!!!!!!! Maybe die.......";
+            return "Jääkaapissa ei ole enää ruokaa!!!!!!!!! Maybe die... Soon...";
     
  
     }
