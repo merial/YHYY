@@ -24,5 +24,8 @@ public class Ihminen {
     public void vähennä(int hela) {
         hp -= hela;
     }
+    public void lisää (int hela) {
+        hp+= hela;
+    }
     
 }
