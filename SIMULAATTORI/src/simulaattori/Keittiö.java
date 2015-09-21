@@ -7,5 +7,7 @@ package simulaattori;
 
 
 public class Keittiö {
-    
+    private Jääkaappi ruoka;
+    private Tulipalo palo;
+            
 }
