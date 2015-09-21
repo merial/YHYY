@@ -8,17 +8,21 @@ public class Ihminen {
 
     public Ihminen() {
     }
-    
-    public Ihminen(int uusiHp){
+
+    public Ihminen(int uusiHp) {
         this.hp = hp;
     }
-    public void setHp (int uusiHp) {
+
+    public void setHp(int uusiHp) {
         hp = uusiHp;
     }
+
     public int getHp() {
         return hp;
     }
-    public void vähennä (int hela){
-        hp-=hela;
+
+    public void vähennä(int hela) {
+        hp -= hela;
     }
+    
 }
