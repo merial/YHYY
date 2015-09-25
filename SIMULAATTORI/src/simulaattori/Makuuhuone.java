@@ -11,6 +11,7 @@ public class Makuuhuone {
     public Makuuhuone (Sänky uni){
         this.uni = uni;
     }
+    
     public Makuuhuone (Ihminen hp){
         this.hp = hp;
     }
