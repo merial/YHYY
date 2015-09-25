@@ -1,10 +1,14 @@
 package simulaattori;
 
 public class Syöpä {
+    
     private String pöpö;
-    double rng = Math.floor(Math.random()*(20-1+1))+1;
+    private Rng nro;
     
     public Syöpä () {
+    }
+    public Syöpä (Rng numero){
+       nro = numero; 
     }
     
     public Syöpä (String pöpö){
@@ -13,8 +17,9 @@ public class Syöpä {
     public void setSyöpä (String uusiSyöpä) {
         pöpö = uusiSyöpä;
     }
+    
     public boolean syöpäännytkö() {
-    if (rng==1){
+    if (nro.getRng()==1){
         return true;
     }
     else {
