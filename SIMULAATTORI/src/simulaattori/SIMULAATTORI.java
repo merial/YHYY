@@ -1,15 +1,18 @@
 
 package simulaattori;
 
-import java.util.Scanner;
+import javax.swing.*;
 
 public class SIMULAATTORI {
     
-    static Scanner lukija = new Scanner(System.in);
     public static void main(String[] args) {
         Kontrolleri omaKontrolleri = new Kontrolleri();
-        char k;
-        char e;
+        char K, k, E, e;
+        int valinta;
+        String valintaStr;
+        
+        
+        JOptionPane.showMessageDialog(null, "shittii");
         
         
         

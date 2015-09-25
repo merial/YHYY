@@ -1,12 +1,11 @@
 /*
- * 
  */
 package simulaattori;
 
 
 public class Tulipalo {
     int palo;
-    private Ihminen hp;  //Ihminen-olio
+    private Ihminen hp;  
     private R_N_G numero;
 
     public Tulipalo(Ihminen hela){
@@ -28,7 +27,7 @@ public class Tulipalo {
         double rng= (int) numero.getRng();
         if (rng == 1) {
             hp.vähennä(hp.getHp());
-            System.out.println("YHYY syttyi kamala tulipalo!!!! Kuolit!!!\nSimssisi päättyi siis tähän.");
+            System.out.println("YHYY syttyi kamala tulipalo!!!! Kuolit!!!\nSimssisi päättyi siis tähän. ;__;");
             System.exit(0);
         } 
         else {
