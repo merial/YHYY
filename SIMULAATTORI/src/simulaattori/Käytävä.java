@@ -31,4 +31,5 @@ public class Käytävä {
         this.ui = ui;
     }
     
+    
 }

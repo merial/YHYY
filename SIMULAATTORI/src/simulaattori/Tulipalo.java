@@ -7,13 +7,13 @@ package simulaattori;
 public class Tulipalo {
     int palo;
     private Ihminen hp;  //Ihminen-olio
-    private Rng numero;
+    private R_N_G numero;
 
     public Tulipalo(Ihminen hela){
        hp=hela;
     } 
     
-    public Tulipalo(Rng numero){
+    public Tulipalo(R_N_G numero){
         this.numero = numero;
     }
     
@@ -28,11 +28,11 @@ public class Tulipalo {
         double rng= (int) numero.getRng();
         if (rng == 1) {
             hp.vähennä(hp.getHp());
-            System.out.println("YHYY kuolit.");
+            System.out.println("YHYY syttyi kamala tulipalo!!!! Kuolit!!!");
             
         } 
         else {
-            System.out.println("Huh pelastuit!");
+            System.out.println("YHYY syttyi kamala tulipalo!!!! Mutta huh pelastuit juuri ja juuri!");
         }
         
 }

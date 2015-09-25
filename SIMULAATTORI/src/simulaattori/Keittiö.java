@@ -8,7 +8,12 @@ public class Keittiö {
     private Jääkaappi ruoka;
     private Tulipalo palo;
     private Ihminen hp;
+    private Syöpä tauti;
     
+    public Keittiö(Syöpä tauti){
+        this.tauti = tauti;
+    }          
+            
     public Keittiö(Jääkaappi ruoka){
         this.ruoka = ruoka;
     }
@@ -40,7 +45,10 @@ public class Keittiö {
       
     public String exitKeittiö(){
         hp.vähennä(10);
-        return "Päätit sitten lähteä takaisin käytävään. Ok...";
+        tauti.syöpäännytkö();
+        return " ";
+        
+        
     }
     
     public void getTulipalo(){ //tää sitte jonku soutin sisään 
