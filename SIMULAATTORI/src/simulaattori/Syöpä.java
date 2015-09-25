@@ -3,14 +3,14 @@ package simulaattori;
 public class Syöpä {
 
     private String pöpö;
-    private Rng nro;
+    private R_N_G nro;
     double rng = (int) nro.getRng();
     private Ihminen hp;
 
     public Syöpä() {
     }
 
-    public Syöpä(Rng numero) {
+    public Syöpä(R_N_G numero) {
         nro = numero;
     }
 
