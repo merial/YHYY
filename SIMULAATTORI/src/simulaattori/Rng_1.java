@@ -3,13 +3,13 @@
 package simulaattori;
 
 
-public class Rng {
+public class Rng1 {
     int numero;
     
-    public Rng(){  
+    public Rng1(){  
     }
     
-    public Rng(int numero){
+    public Rng1(int numero){
         this.numero = numero;
     }
     
