@@ -7,7 +7,7 @@ package simulaattori;
 
 /**
  *
- * @author Omistaja
+ * HEI HALOO ÄLÄ TEE UUTTA HELAA???!?!?!?!?!??!?! käytä ihmis ja rng olioita!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!vitun gei homo banaani
  */
 public class WC {
 
