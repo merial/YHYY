@@ -1,15 +1,16 @@
 /*
+ * 
  */
 package simulaattori;
 
+public class Rng {
 
-public class Rng1 {
     int numero;
     
-    public Rng1(){  
+    public Rng(){  
     }
     
-    public Rng1(int numero){
+    public Rng(int numero){
         this.numero = numero;
     }
     
@@ -24,4 +25,5 @@ public class Rng1 {
     public double getRng3(){
         return (Math.floor(Math.random()*(10-1+1)+1));
     }
+
 }

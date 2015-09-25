@@ -7,13 +7,13 @@ package simulaattori;
 public class Tulipalo {
     int palo;
     private Ihminen hp;  //Ihminen-olio
-    private Rng1 numero;
+    private Rng numero;
 
     public Tulipalo(Ihminen hela){
        hp=hela;
     } 
     
-    public Tulipalo(Rng1 numero){
+    public Tulipalo(Rng numero){
         this.numero = numero;
     }
     
