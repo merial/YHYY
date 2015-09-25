@@ -1,31 +1,35 @@
 package simulaattori;
 
 public class Syöpä {
-    
+
     private String pöpö;
     private Rng nro;
-    
-    public Syöpä () {
+    double rng = (int) nro.getRng();
+    private Ihminen hp;
+
+    public Syöpä() {
     }
-    public Syöpä (Rng numero){
-       nro = numero; 
+
+    public Syöpä(Rng numero) {
+        nro = numero;
     }
-    
-    public Syöpä (String pöpö){
+
+    public Syöpä(String pöpö) {
         this.pöpö = pöpö;
     }
-    public void setSyöpä (String uusiSyöpä) {
+
+    public void setSyöpä(String uusiSyöpä) {
         pöpö = uusiSyöpä;
     }
-    
-    public boolean syöpäännytkö() {
-    if (nro.getRng()==1){
-        return true;
-    }
-    else {
-        return false;
-    }
+
+    public void syöpäännytkö() {
+        if (rng==1) {
+            hp.vähennä(hp.getHp());
+            System.out.println("YHYYY");
+        }
+        else {
+            System.out.println("JEEEE");
+        }
+
 }
-    
-    
 }
