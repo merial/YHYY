@@ -18,7 +18,7 @@ public class Makuuhuone {
     }
     public String gotoSänky(){
         hp.lisää(10);
-        return "Olet nyt sängyssä nukkumassa.";
+        return "Olet nyt sängyssä nukkumassa. Sait +10 hp. Nyt sinulla on "+hp.getHp()+"hp.";
     }
     public String exitMakuuhuone(){
         hp.vähennä(10);

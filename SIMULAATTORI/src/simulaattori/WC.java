@@ -1,13 +1,13 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
  */
 package simulaattori;
 
 /**
  *
- * HEI HALOO ÄLÄ TEE UUTTA HELAA???!?!?!?!?!??!?! käytä ihmis ja rng olioita!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!vitun gei homo banaani
+ * HEI HALOO ÄLÄ TEE UUTTA HELAA???!?!?!?!?!??!?! 
+ * käytä ihmis ja rng olioita!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ * !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ * vitun gei homo banaani
  */
 public class WC {
 

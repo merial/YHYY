@@ -1,18 +1,18 @@
 /*
- * 
  */
 package simulaattori;
 
 
 public class Käytävä {
+    
     private Makuuhuone nuku;
     private Keittiö syö;
     private WC kylve;
     private Uimaallas ui;
+    private Syöpä tauti;
     
     
     public Käytävä(){
-        
     }
     
     public Käytävä(Makuuhuone nuku){
@@ -29,6 +29,16 @@ public class Käytävä {
     
     public Käytävä(Uimaallas ui){
         this.ui = ui;
+    }
+    
+    public Käytävä(Syöpä tauti){
+        this.tauti=tauti;
+    }
+    
+    public String enterKäytävä(){
+        tauti.syöpäännytkö();
+        return "Olet nyt talon käytävässä. "
+                + "Voit mennä johonkin huoneista tai lopettaa simulaation.";
     }
     
     
