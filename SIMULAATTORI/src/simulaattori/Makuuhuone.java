@@ -1,15 +1,11 @@
 package simulaattori;
 
 public class Makuuhuone {
-    private Sänky uni;
+
     private Ihminen hp;
     private Syöpä tauti;
     
     public Makuuhuone(){        
-    }
-    
-    public Makuuhuone (Sänky uni){
-        this.uni = uni;
     }
     
     public Makuuhuone (Ihminen hp){
