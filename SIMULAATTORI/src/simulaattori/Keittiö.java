@@ -1,5 +1,4 @@
 /*
- *
  */
 package simulaattori;
 
@@ -47,7 +46,6 @@ public class Keittiö {
         hp.vähennä(10);
         tauti.syöpäännytkö();
         return " ";
-        
         
     }
     

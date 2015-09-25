@@ -28,8 +28,8 @@ public class Tulipalo {
         double rng= (int) numero.getRng();
         if (rng == 1) {
             hp.vähennä(hp.getHp());
-            System.out.println("YHYY syttyi kamala tulipalo!!!! Kuolit!!!");
-            
+            System.out.println("YHYY syttyi kamala tulipalo!!!! Kuolit!!!\nSimssisi päättyi siis tähän.");
+            System.exit(0);
         } 
         else {
             System.out.println("YHYY syttyi kamala tulipalo!!!! Mutta huh pelastuit juuri ja juuri!");

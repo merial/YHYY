@@ -1,9 +1,8 @@
 /*
- * 
  */
 package simulaattori;
 
-public class MerinKontrolleri {
+public class Kontrolleri {
 
     private Ihminen hp;
     private Jääkaappi ruoka;
@@ -11,34 +10,44 @@ public class MerinKontrolleri {
     private Tulipalo palo;
     private Keittiö syö;
     private Syöpä tauti;
+    private Makuuhuone uni;
+    private Uimaallas allas;
+    private WC vessa;
+    private Hukkuminen huku;
+    private Kylpyamme kylve;
     
-    MerinKontrolleri(){
+    
+    Kontrolleri(){
     }
     
-    MerinKontrolleri(Ihminen hp){
+    Kontrolleri(Ihminen hp){
         this.hp = hp;
     }
     
-    MerinKontrolleri(Jääkaappi ruoka){
+    Kontrolleri(Jääkaappi ruoka){
         this.ruoka=ruoka;
     }
     
-    MerinKontrolleri(R_N_G numero){
+    Kontrolleri(R_N_G numero){
         this.numero=numero;
     }
     
-    MerinKontrolleri(Tulipalo palo){
+    Kontrolleri(Tulipalo palo){
         this.palo=palo;
     }
     
-    MerinKontrolleri(Keittiö syö){
+    Kontrolleri(Keittiö syö){
         this.syö=syö;
     }
     
-    MerinKontrolleri(Syöpä tauti){
+    Kontrolleri(Syöpä tauti){
         this.tauti= tauti;
     }
     
+    Kontrolleri (Makuuhuone uni){
+            this.uni=uni;
+    }
+        
     public void kuoletko(){
         palo.kuoletko();
     }

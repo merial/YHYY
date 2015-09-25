@@ -9,7 +9,7 @@ public class Ihminen {
     public Ihminen() {
     }
 
-    public Ihminen(int uusiHp) {
+    public Ihminen(int hp) {
         this.hp = hp;
     }
 
