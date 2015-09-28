@@ -15,6 +15,7 @@ public class Kontrolleri {
     private WC vessa;
     private Hukkuminen huku;
     private Kylpyamme kylve;
+    private Käytävä kaytava;
     
     
     Kontrolleri(){
@@ -23,17 +24,19 @@ public class Kontrolleri {
         R_N_G numero = new R_N_G();
         Syöpä tauti = new Syöpä(numero);
         Jääkaappi ruoka = new Jääkaappi(hp,5);
+        Keittiö syo = new Keittiö(ruoka);
+        Makuuhuone uni = new Makuuhuone();
+        Hukkuminen huku = new Hukkuminen();
+        Uimaallas allas = new Uimaallas();
+        Tulipalo palo = new Tulipalo(hp);
+        Kylpyamme amme = new Kylpyamme();
+        WC vessa = new WC();
         
     }
     
 
-    
-        
     public void kuoletko(){
         palo.kuoletko();
     }
     
-    
- 
-  
 }
