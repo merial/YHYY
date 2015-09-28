@@ -42,10 +42,8 @@ public class Keittiö {
         //keittiöstä kokonaan takasin käytävään
     }
       
-    public String exitKeittiö(){
+    public void exitKeittiö(){
         hp.vähennä(10);
-        tauti.syöpäännytkö();
-        return " ";
         
     }
     

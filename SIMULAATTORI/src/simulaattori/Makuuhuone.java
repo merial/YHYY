@@ -22,8 +22,9 @@ public class Makuuhuone {
     }
     public String exitMakuuhuone(){
         hp.vähennä(10);
-        tauti.syöpäännytkö();
-        return " ";
+        return null;
     }
+    
+    
     
 }
