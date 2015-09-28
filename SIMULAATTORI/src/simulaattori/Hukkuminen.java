@@ -24,14 +24,15 @@ public class Hukkuminen {
         hups = uusiHups;
     }
 
-    public void hukutko() {
-        if (rng==1) {
+    public String hukutko() {
+        if (rng == 1) {
             hp.vähennä(hp.getHp());
-            System.out.println("YHYYY");
-        }
-        else {
-            System.out.println("JEEEE");
+            System.exit(0);
+            return "YHYY!!! Hukuit!!! Pelisi on ohi.";
+
+        } else {
+            return null;
         }
 
-}
+    }
 }

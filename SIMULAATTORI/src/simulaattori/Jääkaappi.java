@@ -8,18 +8,16 @@ public class Jääkaappi {
     private Ihminen hp;
     
     
-    public Jääkaappi(Ihminen hela){
+    public Jääkaappi(Ihminen hela, int ruoka){
         hp = hela;
+        this.ruoka = ruoka;
     }
     
     public Jääkaappi(){
         
     }
     
-    public Jääkaappi(int ruoka){
-        this.ruoka = ruoka;
-        
-    }
+    
     public void setRuoka(int uusiRuoka){
         ruoka = uusiRuoka;
     }

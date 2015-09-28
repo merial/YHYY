@@ -7,36 +7,30 @@ public class Käytävä {
     
     private Makuuhuone nuku;
     private Keittiö syö;
-    private WC kylve;
+    private WC kylve;  
     private Uimaallas ui;
     private Syöpä tauti;
+    
+
+    public Käytävä(Makuuhuone nuku, Keittiö syö, WC kylve, Uimaallas ui, Syöpä tauti) {
+        this.nuku = nuku;
+        this.syö = syö;
+        this.kylve = kylve;
+        this.ui = ui;
+        this.tauti = tauti;
+                
+    }
+  
+    
     
     
     public Käytävä(){
     }
     
-    public Käytävä(Makuuhuone nuku){
-          this.nuku=nuku;      
-    }
-    
-    public Käytävä(Keittiö syö){
-        this.syö=syö;
-    }
-    
-    public Käytävä(WC kylve){
-        this.kylve=kylve;
-    }
-    
-    public Käytävä(Uimaallas ui){
-        this.ui = ui;
-    }
-    
-    public Käytävä(Syöpä tauti){
-        this.tauti=tauti;
-    }
+
     
     public String enterKäytävä(){
-        tauti.syöpäännytkö();
+        String tulos = tauti.syöpäännytkö();
         return "Olet nyt talon käytävässä. "
                 + "Voit mennä johonkin huoneista tai lopettaa simulaation.";
     }

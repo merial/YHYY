@@ -18,35 +18,16 @@ public class Kontrolleri {
     
     
     Kontrolleri(){
+        
+        Ihminen hp = new Ihminen();
+        R_N_G numero = new R_N_G();
+        Syöpä tauti = new Syöpä(numero);
+        Jääkaappi ruoka = new Jääkaappi(hp,5);
+        
     }
     
-    Kontrolleri(Ihminen hp){
-        this.hp = hp;
-    }
+
     
-    Kontrolleri(Jääkaappi ruoka){
-        this.ruoka=ruoka;
-    }
-    
-    Kontrolleri(R_N_G numero){
-        this.numero=numero;
-    }
-    
-    Kontrolleri(Tulipalo palo){
-        this.palo=palo;
-    }
-    
-    Kontrolleri(Keittiö syö){
-        this.syö=syö;
-    }
-    
-    Kontrolleri(Syöpä tauti){
-        this.tauti= tauti;
-    }
-    
-    Kontrolleri (Makuuhuone uni){
-            this.uni=uni;
-    }
         
     public void kuoletko(){
         palo.kuoletko();
