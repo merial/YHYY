@@ -10,14 +10,20 @@ public class SIMULAATTORI {
         Kontrolleri omaKontrolleri = new Kontrolleri();
         char K, k, E, e;
         int valinta;
-        String valintaStr;
+        String nimi;
+        
         
         
         JOptionPane.showMessageDialog(null, "Tervetuloa SIMulaatioon!\n"
                 + "Voit liikkua huoneissa ja tehdä jotain ja jotain öö");
         
-        JOptionPane.showMessageDialog(null, omaKontrolleri.kuoletko());
         
+        nimi = JOptionPane.showInputDialog(null, "Kerro nimesi");
+        
+        
+        JOptionPane.showMessageDialog(null, "Nimesi on siis "+omaKontrolleri.getNimi());
+        
+        System.exit(0);
         
         
     }
