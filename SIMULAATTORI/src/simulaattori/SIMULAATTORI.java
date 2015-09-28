@@ -13,8 +13,10 @@ public class SIMULAATTORI {
         String valintaStr;
         
         
-        JOptionPane.showMessageDialog(null, "shittii");
+        JOptionPane.showMessageDialog(null, "Tervetuloa SIMulaatioon!\n"
+                + "Voit liikkua huoneissa ja tehdä jotain ja jotain öö");
         
+        JOptionPane.showMessageDialog(null, omaKontrolleri.kuoletko());
         
         
         
