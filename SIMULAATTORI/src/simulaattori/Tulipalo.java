@@ -23,16 +23,28 @@ public class Tulipalo {
         this.palo = palo;
     }
         
-    public void kuoletko() {
+    public String tuleekopalo(){
         double rng= (int) numero.getRng();
         if (rng == 1) {
+            return kuoletko();
+        }    
+        else {
+        return null;
+        }
+        
+    }
+    
+    public String kuoletko() {
+        double rng= (int) numero.getRng4();
+        if (rng == 1) {
             hp.vähennä(hp.getHp());
-            System.out.println("YHYY syttyi kamala tulipalo!!!! Kuolit!!!\nSimssisi päättyi siis tähän. ;__;");
             System.exit(0);
+            return "YHYY syttyi kamala tulipalo!!!! Kuolit!!!\nSimssisi päättyi siis tähän. ;__;";
         } 
         else {
-            System.out.println("YHYY syttyi kamala tulipalo!!!! Mutta huh pelastuit juuri ja juuri!");
+            return "YHYY syttyi kamala tulipalo!!!! Mutta huh pelastuit juuri ja juuri!";
         }
+        
         
 }
 }    

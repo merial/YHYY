@@ -30,4 +30,8 @@ public class R_N_G {
     public double getRng3(){
         return (Math.floor(Math.random()*(10-1+1)+1));
     }
+    
+    public double getRng4(){
+        return (Math.floor(Math.random()*2+1));
+    }
 }

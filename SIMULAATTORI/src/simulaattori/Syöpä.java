@@ -22,14 +22,17 @@ public class Syöpä {
         pöpö = uusiSyöpä;
     }
 
-    public void syöpäännytkö() {
+    public String syöpäännytkö() {
         if (rng==1) {
             hp.vähennä(hp.getHp());
-            System.out.println("YHYYY");
+            System.exit(0);
+            return "YHYY!!! Sait syövän!!! Pelisi on ohi.";
+            
         }
         else {
-            System.out.println("JEEEE");
+            return null;
         }
+        
 
 }
 }
