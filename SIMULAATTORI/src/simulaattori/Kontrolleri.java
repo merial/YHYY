@@ -14,7 +14,6 @@ public class Kontrolleri {
     private Uimaallas allas;
     private WC vessa;
     private Hukkuminen huku;
-    private Kylpyamme kylve;
     private Käytävä kaytava;
     
     
@@ -29,7 +28,6 @@ public class Kontrolleri {
         Hukkuminen huku = new Hukkuminen();
         Uimaallas allas = new Uimaallas();
         Tulipalo palo = new Tulipalo(hp);
-        Kylpyamme amme = new Kylpyamme();
         WC vessa = new WC();
         
     }
