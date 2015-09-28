@@ -11,6 +11,12 @@ public class Tulipalo {
     public Tulipalo(Ihminen hela){
        hp=hela;
     } 
+
+    public Tulipalo(int palo, Ihminen hp, R_N_G numero) {
+        this.palo = palo;
+        this.hp = hp;
+        this.numero = numero;
+    }
     
     public Tulipalo(R_N_G numero){
         this.numero = numero;

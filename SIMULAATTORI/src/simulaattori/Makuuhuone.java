@@ -3,7 +3,7 @@ package simulaattori;
 public class Makuuhuone {
 
     private Ihminen hp;
-    private Syöpä tauti;
+
     
     public Makuuhuone(){        
     }

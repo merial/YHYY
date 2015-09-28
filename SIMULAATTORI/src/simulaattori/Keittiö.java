@@ -28,6 +28,13 @@ public class Keittiö {
     public Keittiö(){
         
     }
+
+    public Keittiö(Jääkaappi ruoka, Tulipalo palo, Ihminen hp, Syöpä tauti) {
+        this.ruoka = ruoka;
+        this.palo = palo;
+        this.hp = hp;
+        this.tauti = tauti;
+    }
     
     public String enterKeittiö(){
         return "Olet nyt keittiössä. Voit käydä jääkaapilla katsomassa "
