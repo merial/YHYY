@@ -32,7 +32,6 @@ public class Kontrolleri {
         Hukkuminen huku = new Hukkuminen();
         Uimaallas allas = new Uimaallas();
         Tulipalo palo = new Tulipalo(hp);
-        Kylpyamme amme = new Kylpyamme();
         WC vessa = new WC();
         
     }

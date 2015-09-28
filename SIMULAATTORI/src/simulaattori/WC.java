@@ -31,6 +31,7 @@ public class WC {
     }
 
     public void exitWC() {
+        String tulos = hups.hukutko();
         hp.vähennä(10);
     }
 }
