@@ -33,3 +33,4 @@ public class WC {
     public void exitWC() {
         hp.vähennä(10);
     }
+}
