@@ -30,11 +30,6 @@ public class WC {
                 "Voit poistua wc:stä tai mennä pöntölle.";
     }
 
-    public WC(Ihminen hp) {
-        this.hp = hp;
-    }
-
     public void exitWC() {
         hp.vähennä(10);
     }
-}
