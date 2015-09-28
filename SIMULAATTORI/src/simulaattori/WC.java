@@ -33,8 +33,8 @@ public class WC {
     public WC(Ihminen hp) {
         this.hp = hp;
     }
-}
 
     public void exitWC() {
         hp.vähennä(10);
     }
+}
