@@ -14,8 +14,8 @@ public class Ihminen {
         this.hp = hp;
     }
     
-    public void setNimi(String uusiNimi){
-        nimi = uusiNimi;
+    public void setNimi(String nimi){
+        this.nimi = nimi;
     }
     
     public String getNimi(){
